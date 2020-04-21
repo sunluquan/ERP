@@ -1,5 +1,6 @@
 package com.slq.util;
 
+import java.util.Collection;
 import java.util.List;
 
 import com.slq.pojo.Permission;
@@ -33,6 +34,13 @@ public class ActiveUser {
 		super();
 		this.user = user;
 	}
-	
+
+	public Collection<String> getRoles() {
+		return null;
+	}
+
+	public Collection<String> getPermissions() {
+		return null;
+	}
 	
 }
